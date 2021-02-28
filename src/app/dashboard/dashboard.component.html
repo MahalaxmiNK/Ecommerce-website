@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div>
+    <div style="overflow-y: hidden;">
+        <div class="path">
+          Home / Clothing / Mens Clothing / All Mens Clothing
+        </div>
+        <div class="productNum">
+          <span class="font-bold">All products</span>
+          <span class="prodNum">(25 Products)</span>
+        </div>
+        <div>
+            <span class="font-bold filter-text">FILTERS:</span>
+        </div>
+        <div class="filterSet">
+            <button class="button-filter1" (click)="filterProduct('All Products')">All Products</button>
+            <button class="button-filter2" (click)="filterProduct('T-shirt')">Tee Shirt</button>
+            <button class="button-filter3" (click)="filterProduct('Denim')">Denim</button>
+            <button class="button-filter4" (click)="filterProduct('jacket')">Jacket</button>
+            <button class="button-filter5" (click)="filterProduct('T-shirt')">Polo Tee shirt</button>
+            <button class="button-filter6" (click)="filterProduct('shirt')">Shirt</button>
+            <select class="button-filter7" (change)="sortProduct()" [(ngModel)]="value">
+              <option value = "asc"> Sort By: Price Low To High</option> 
+              <option value="dsc">Sort By: Price High To Low</option>
+            </select>
+        </div>
+
+        <div class="line-sep"></div>
+    </div>
+    <div class="main-content" layout="row" layout-wrap>
+        <mat-card flex="40" flex-sm="80" class="card-div" *ngFor="let product of getProducts; let i=index" (click)= "selectProduct(product);active = i" [ngClass]="active === i ? 'card-div-selected' : 'card-div' " >
+            <mat-card-header>
+            </mat-card-header>
+            <img mat-card-image [src]="product.image_src[0]" alt="Photo of a Shiba Inu">
+            <mat-card-content style="display: grid;">
+                <span *ngIf="active !== i"style="font-weight: bold;">{{product.vendor}}</span>
+                <span *ngIf="active !== i" class="productName">{{product.name}}</span>
+                <button *ngIf="active === i" class="addToCart" (click)="addToCart(product)">ADD TO CART</button>
+                <div *ngIf="active === i" class="sizeBlock">
+                  <span style="padding: 2px;">Sizes :</span>
+                  <div class="sizeCell" *ngFor= "let size of getProducts[i].options">
+                    <span>{{size.value}},</span>
+                  </div>
+                </div>
+                <span>${{product.price}}
+                    <span style="color: #878787; text-decoration-line: line-through;">${{product.compare_at_price}}</span>
+                    <span style="color: #F96849;">({{((product.compare_at_price-product.price)/product.compare_at_price * 100).toFixed(0)}} %OFF)</span>
+                </span>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

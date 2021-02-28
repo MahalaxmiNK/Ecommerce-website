@@ -1,0 +1,172 @@
+.path{
+    color: black;
+    position: absolute;
+    top: 9rem;
+    font-size: 13px;
+    font-family: Roboto;
+    left: 2rem;
+  }
+  .productNum{
+    color: black;
+    position: absolute;
+    top: 11rem;
+    font-size: 21px;
+    font-family: Roboto;
+    left: 2rem;
+  }
+  .font-bold{
+    font-weight: bold;
+  }
+  .prodNum{
+    margin-left: 7px;
+    color: #C4C4C4;
+    font-weight: normal;
+  }
+  .filter-text{
+    color: black;
+    position: absolute;
+    top: 15rem;
+    font-size: 16px;
+    font-family: Roboto;
+    left: 2rem;
+  }
+  .filterSet{
+    position: absolute;
+    top: 14.5rem;
+    left: 8rem;
+  }
+  .button-filter1{
+    background-color: white;
+    border: 1px solid #C4C4C4;    
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 95px;
+  }
+  .button-filter2{
+    left: 7rem;
+    border: 1px solid #C4C4C4;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 95px;
+  }
+  .button-filter3{
+    left: 14rem;
+    border: 1px solid #C4C4C4;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 95px;
+  }
+  .button-filter4{
+    left: 21rem;
+    border: 1px solid #C4C4C4;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 95px;
+  }
+  .button-filter5{
+    left: 28rem;
+    border: 1px solid #C4C4C4;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 110px;
+  }
+  .button-filter6{
+    left: 36rem;
+    border: 1px solid #C4C4C4;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 95px;
+  }
+  
+  .button-filter7{
+    left: 63.5rem;
+    border: 1px solid black;    
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 42px;
+    color: black;
+    min-width: 200px;
+  }
+  .line-sep{
+    width: 95.5%;
+    border: 5px solid white;
+    height: 5px;
+    border-top: 1px solid #E5E5E5;
+    position: absolute;
+    top: 18rem;
+    margin-left: 2rem;
+  }
+  .card-div {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .card-div-selected{
+    border: 2px solid #3B86FF;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .main-content{
+    height: 600px;
+    position: fixed;
+    top: 19rem;
+    left: 2rem;
+    overflow-y: scroll;
+  }
+  .mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%); 
+  }
+  .mat-card-image{
+    width: 292px;
+    margin: 0 -16px 16px -16px;
+    height: 349px;
+  }
+  .mat-card-content {
+    line-height: 25px;
+  }
+  .productName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 16rem;
+    color: #878787;
+    font-size: 14px;
+  }
+  .sizeBlock{
+    display: flex;
+    color: grey;
+  }
+  .sizeCell{
+    padding: 2px;
+  }
+  .addToCart{
+    width: 232px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid #878787;
+    border-radius: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  button{
+    outline-color: black;
+  }
+
+  

@@ -1,0 +1,131 @@
+#header {
+    z-index: 100;
+    position: fixed;
+    width: 111.5%;
+    margin-top: -20px;
+    height: 70px;
+    background-color: white;
+    margin-left: -16px;
+  }
+  .sub-header {
+    z-index: 100;
+    position: fixed;
+    width: 111.5%;
+    margin-top: 1px;
+    height: 53px;
+    background-image: linear-gradient(90.06deg, #181716 0%, #ED4E08 99.97%);;
+    margin-bottom: 10px;
+    margin-left: -16px;
+  }
+  .logo{
+    height: 38px;
+    width: 38px;
+    margin-left: 2rem;
+    margin-top: 29px;
+    margin-bottom: 16px;
+  }
+  .shop{
+    position: absolute;
+    top: 2rem;
+    left: 38.5rem;
+  }
+  .aboutUs{
+    position: absolute;
+    top: 2rem;
+    left: 43.5rem;
+  }
+  .ourStores{
+    position: absolute;
+    top: 2rem;
+    left: 49.5rem;
+  }
+  .contactUs{
+    position: absolute;
+    top: 2rem;
+    left: 56rem;
+  }
+  .downArrow{
+    position: absolute;
+    top: -1px;
+    left: 37px;
+  }
+  .search{
+    position: absolute;
+    top: 2rem;    
+    right: 19rem;
+  }
+  .searchIcon{
+    height: 18px;
+    position: absolute;
+    margin-left: 3px;
+    top: 1px;
+  }
+  .profileIcon{
+    position: absolute;
+    top: 1.9rem;
+    right: 15.3rem;
+    height: 20px;
+  }
+  .cartIcon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 1.9rem;
+    right: 12.3rem;
+  }
+.txt{
+  background-color: #ED4E08;
+  font-size: small;
+  position: absolute;
+  padding: 2px;
+  border-radius: 25px;
+  top: 1.4rem;
+  right: 11.5rem;
+  height: 16px !important;
+  width: 16px  !important;
+  text-align: center;
+  color: white;
+}
+  .subText{
+    color: white;
+    top: 1rem;
+    position: absolute;
+    left: 24.5rem;
+  }
+  .button-invite{
+    border: 1px solid white;
+    background-color: white;
+    top: -0.3rem;
+    right: -7rem;
+    position: absolute;
+    border-radius: 20px;
+    height: 29px;
+    width: 94px;
+  }
+  .path{
+    color: black;
+    position: absolute;
+    top: 9rem;
+    font-size: 13px;
+    font-family: Roboto;
+    left: 2rem;
+  }
+  .productNum{
+    color: black;
+    position: absolute;
+    top: 11rem;
+    font-size: 21px;
+    font-family: Roboto;
+    left: 2rem;
+  }
+  .font-bold{
+    font-weight: bold;
+  }
+  .prodNum{
+    margin-left: 7px;
+    color: #C4C4C4;
+    font-weight: normal;
+  }
+
+
+

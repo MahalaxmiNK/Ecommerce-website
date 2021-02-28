@@ -1,0 +1,11 @@
+@import './scss/variables.scss';
+.app-component {
+  .header {
+      padding: 2px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+      font-size: 10px;
+      height: 20px
+  }
+}
